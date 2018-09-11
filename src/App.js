@@ -38,7 +38,7 @@ class App extends Component {
           onChange={e => this.handleSearch(e)}
           placeholder="Search for a movie"
         />
-        <div style={{ height: "50px" }}>{this.state.rows}</div>
+        <div style={{ height: "100px" }}>{this.state.rows}</div>
       </div>
     );
   }
