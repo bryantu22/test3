@@ -19,8 +19,8 @@ class App extends Component {
         var movieRows = [];
         var counter = 0;
         response.data.results.forEach(movie => {
-          // movie.poster_src =
-          //   "https://image.tmdb.org/t/p/w185" + movie.poster_path;
+          movie.poster_src =
+            "https://image.tmdb.org/t/p/w185" + movie.poster_path;
           const movieRow = <MovieRow key={movie.id} movie={movie} />;
           if (counter < 5) movieRows.push(movieRow);
           counter++;
