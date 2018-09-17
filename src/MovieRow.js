@@ -36,9 +36,10 @@ class MovieRow extends React.Component {
         <div
           style={{
             display: "inline-block",
-            width: "90%",
+            width: "80%",
             marginBottom: "10px",
-            verticalAlign: "top"
+            verticalAlign: "top",
+            paddingLeft: '2%'
           }}
         >
           <h3>{this.props.movie.title}</h3>

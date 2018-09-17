@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div>
         <input
-          style={{ width: "100%" }}
+          style={{ width: "100%", height: "30px", fontSize: "1em", marginBottom: '10px' }}
           onChange={e => this.handleSearch(e)}
           placeholder="Search movie"
         />
