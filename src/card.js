@@ -42,7 +42,11 @@ class card extends React.Component {
     return (
       <div>
         <img className="card-img" alt="poster" src={poster} />
+<<<<<<< HEAD
         <div className="info-box">
+=======
+        <div style={{ width: "60%", display: "inline-block" }}>
+>>>>>>> Bryan (#10)
           <h1>{original_title}</h1>
           <p className="releasedate">{release_date}</p>
           <p>{overview}</p>
