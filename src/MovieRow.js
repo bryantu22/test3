@@ -66,6 +66,7 @@ class MovieRow extends React.Component {
   render() {
     return (
       <div>
+
         <div
           style={{
             display: "inline-block",
@@ -87,6 +88,7 @@ class MovieRow extends React.Component {
           <Modal open={this.state.open} onClose={this.onCloseModal}>
             <Card data={this.state.data} />
           </Modal>
+
         </div>
       </div>
     );
