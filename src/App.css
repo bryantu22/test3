@@ -98,6 +98,7 @@
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
+<<<<<<< HEAD
 
 .test:before {
   content: "";
@@ -188,3 +189,5 @@
 .styles_closeIcon__1QwbI {
   fill: white;
 }
+=======
+>>>>>>> master
